@@ -28,7 +28,7 @@
 <meta property="og:description" content="摘要：大家好，我是喜欢编程的体育生——孟栗典~你们也可以叫我典典，作为一名计算机爱好者，平时喜欢把自己的学习心得或是一些踩坑、易错的过程记录下来，所以建立了此博客.....">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-01-05T12:06:36.000Z">
-<meta property="article:modified_time" content="2023-02-01T02:19:42.052Z">
+<meta property="article:modified_time" content="2023-02-01T07:22:15.994Z">
 <meta property="article:author" content="孟栗典">
 <meta name="twitter:card" content="summary">
 
@@ -190,7 +190,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-02-01 10:19:42" itemprop="dateModified" datetime="2023-02-01T10:19:42+08:00">2023-02-01</time>
+                <time title="修改时间：2023-02-01 15:22:15" itemprop="dateModified" datetime="2023-02-01T15:22:15+08:00">2023-02-01</time>
               </span>
 
           
@@ -260,15 +260,15 @@
 <p>在浏览器访问：<br><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a></p>
 <p>可以看到访问没问题<br>但这个只是在本地预览，接着将这个博客部署到GitHub</p>
 <h2 id="2-部署到GitHub"><a href="#2-部署到GitHub" class="headerlink" title="2.部署到GitHub"></a>2.部署到GitHub</h2><p>新建一个GitHub仓库。</p>
-<p>给仓库起个名称，注意！注意！注意！<br>仓库名称格式： 用户名.github.io<br>典典的仓库名称为：LidianMeng&#x2F;mengdd.github.io</p>
+<p>给仓库起个名称，注意！注意！注意！<br>仓库名称格式： 用户名.github.io<br>典典的仓库名称为：LidianMeng&#x2F;LidianMeng.github.io</p>
 <p>这个仓库名称将作为你github博客的访问地址</p>
 <p>编辑_config.yml，_config.yml在博客存放目录下，拉至文本最后：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repository: git@github.com:LidianMeng/mengdd.github.io.git <span class="comment">#仓库地址改为自己的</span></span><br><span class="line">  branch: main <span class="comment">#看自己的github仓库是master还是main，我这里是main，所以就填写main</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repository: git@github.com:LidianMeng/LidianMeng.github.io.git <span class="comment">#仓库地址改为自己的</span></span><br><span class="line">  branch: main <span class="comment">#看自己的github仓库是master还是main，我这里是main，所以就填写main</span></span><br></pre></td></tr></table></figure>
 
 <p>发布到GitHub</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
-<p>在浏览器访问:<a target="_blank" rel="noopener" href="https://mengdd.github.io/">https://mengdd.github.io/</a></p>
+<p>在浏览器访问:<a target="_blank" rel="noopener" href="https://lidianmeng.github.io/">https://LidianMeng.github.io/</a></p>
 <p>可以看到成功访问，这个博客地址已经是部署到了公网</p>
 <h1 id="四、编写博客"><a href="#四、编写博客" class="headerlink" title="四、编写博客"></a>四、编写博客</h1><p>搭建好博客之后，日常中肯定是需要编写博客并且同步到github<br>新建一篇名为：chenge-first-blog的博客</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&#x27;chenge-first-blog&#x27;</span></span><br></pre></td></tr></table></figure>
@@ -284,7 +284,7 @@
 <p>上传到github</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
-<p>再次访问：<a target="_blank" rel="noopener" href="https://mengdd.github.io/">https://mengdd.github.io/</a></p>
+<p>再次访问：<a target="_blank" rel="noopener" href="https://lidianmeng.github.io/">https://LidianMeng.github.io/</a></p>
 <p>可以看到编写的博客已经同步到github平台</p>
 <h1 id="五、小结"><a href="#五、小结" class="headerlink" title="五、小结"></a>五、小结</h1><p>本文从0到1搭建了自己的个人博客，过程很详细，绝对的保姆级教程，看完就会！</p>
 <p>关注我，我是典典~<br>未来继续给大家分享更多有趣的东西<br>拜拜，我们下期见！</p>
